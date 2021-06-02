@@ -4,6 +4,7 @@ export default class Scoreboard extends React.Component {
     render() {
         return (
             <div>
+                {}
                 <div className="grid grid-cols-2">
                     <div>
                         Red score:

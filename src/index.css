@@ -77,6 +77,15 @@ button:active {
     border-radius: .25rem;
 }
 
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+
 .bg-red {
     background-color: red;
 }
@@ -154,6 +163,10 @@ button:active {
 
 .text-2xl {
     font-size: 1.5rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
 }
 
 .text-center {

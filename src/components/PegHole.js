@@ -6,11 +6,10 @@ export default class PegHole extends React.Component {
         if (this.props.filled) {
             color = `bg-${this.props.team}`
         }
-        let padding = this.props.i % 5 === 0 ? ' mr-4' : '';
-        let clazz = `inline-block hole ${color}${padding}`;
+        let clazz = `inline-block hole ${color} `;
 
         return (
-          <div className={clazz}>
+          <div className={clazz + this.props.className}>
           </div>
         );
     }
